@@ -9,23 +9,29 @@
 /* Begin PBXBuildFile section */
 		DA625C92241D350E0070A52C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA625C91241D350E0070A52C /* AppDelegate.swift */; };
 		DA625C94241D350E0070A52C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA625C93241D350E0070A52C /* SceneDelegate.swift */; };
-		DA625C96241D350E0070A52C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA625C95241D350E0070A52C /* FirstViewController.swift */; };
-		DA625C98241D350E0070A52C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA625C97241D350E0070A52C /* SecondViewController.swift */; };
 		DA625C9B241D350E0070A52C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA625C99241D350E0070A52C /* Main.storyboard */; };
 		DA625C9D241D350F0070A52C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA625C9C241D350F0070A52C /* Assets.xcassets */; };
 		DA625CA0241D350F0070A52C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA625C9E241D350F0070A52C /* LaunchScreen.storyboard */; };
+		DA625CAB241E31190070A52C /* Calanques.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA625CAA241E31190070A52C /* Calanques.swift */; };
+		DA625CAD241E33F00070A52C /* CalanqueCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA625CAC241E33F00070A52C /* CalanqueCollection.swift */; };
+		DA625CAF241E363D0070A52C /* ControllerAvecTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA625CAE241E363D0070A52C /* ControllerAvecTableView.swift */; };
+		DA625CB2241E36970070A52C /* ControllerAvecCarte.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA625CB1241E36970070A52C /* ControllerAvecCarte.swift */; };
+		DA625CB4241E36D60070A52C /* TableViewIntegreeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA625CB3241E36D60070A52C /* TableViewIntegreeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DA625C8E241D350E0070A52C /* Les Calanques.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Les Calanques.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA625C91241D350E0070A52C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA625C93241D350E0070A52C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DA625C95241D350E0070A52C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		DA625C97241D350E0070A52C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		DA625C9A241D350E0070A52C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA625C9C241D350F0070A52C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA625C9F241D350F0070A52C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA625CA1241D350F0070A52C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA625CAA241E31190070A52C /* Calanques.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calanques.swift; sourceTree = "<group>"; };
+		DA625CAC241E33F00070A52C /* CalanqueCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalanqueCollection.swift; sourceTree = "<group>"; };
+		DA625CAE241E363D0070A52C /* ControllerAvecTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerAvecTableView.swift; sourceTree = "<group>"; };
+		DA625CB1241E36970070A52C /* ControllerAvecCarte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerAvecCarte.swift; sourceTree = "<group>"; };
+		DA625CB3241E36D60070A52C /* TableViewIntegreeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewIntegreeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,8 @@
 		DA625CA7241E2FA90070A52C /* Modele */ = {
 			isa = PBXGroup;
 			children = (
+				DA625CAA241E31190070A52C /* Calanques.swift */,
+				DA625CAC241E33F00070A52C /* CalanqueCollection.swift */,
 			);
 			path = Modele;
 			sourceTree = "<group>";
@@ -88,8 +96,9 @@
 		DA625CA9241E2FD90070A52C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				DA625C95241D350E0070A52C /* FirstViewController.swift */,
-				DA625C97241D350E0070A52C /* SecondViewController.swift */,
+				DA625CAE241E363D0070A52C /* ControllerAvecTableView.swift */,
+				DA625CB1241E36970070A52C /* ControllerAvecCarte.swift */,
+				DA625CB3241E36D60070A52C /* TableViewIntegreeController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -165,10 +174,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA625C98241D350E0070A52C /* SecondViewController.swift in Sources */,
-				DA625C96241D350E0070A52C /* FirstViewController.swift in Sources */,
+				DA625CAB241E31190070A52C /* Calanques.swift in Sources */,
+				DA625CAF241E363D0070A52C /* ControllerAvecTableView.swift in Sources */,
+				DA625CB4241E36D60070A52C /* TableViewIntegreeController.swift in Sources */,
 				DA625C92241D350E0070A52C /* AppDelegate.swift in Sources */,
 				DA625C94241D350E0070A52C /* SceneDelegate.swift in Sources */,
+				DA625CB2241E36970070A52C /* ControllerAvecCarte.swift in Sources */,
+				DA625CAD241E33F00070A52C /* CalanqueCollection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
